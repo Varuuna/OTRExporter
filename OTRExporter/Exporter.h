@@ -6,9 +6,9 @@
 #include <libultraship/bridge.h>
 #include "VersionInfo.h"
 #ifdef GAME_MM
-#include "../../mm/2s2h/resource/type/2shResourceType.h"
+#include "../../2ship/mm/2s2h/resource/type/2shResourceType.h"
 #elif GAME_OOT
-#include "../../soh/soh/resource/type/SohResourceType.h"
+#include "../../soh/soh/soh/resource/type/SohResourceType.h"
 #endif
 class OTRExporter : public ZResourceExporter
 {
